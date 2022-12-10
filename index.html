@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="author" content="Maria guadalupe">
+    <meta name="description" content="maria guadalupe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Maria | Que estudia Web Front-End</title>
+    
+    <link rel="icon" type="image/x-icon" href="imagenes/psicologia.webp">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <link href="style.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-arrow-down-right-circle-fill"></i>
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/imagenes-desarrolladores/desarrollador-ejemplo.svg" alt="Foto de Jane Doe">
+        <h1>Hola, soy María Guadalupe Gutierrez</h1>
+        
+
+     
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/psicologia.webp" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+    
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"> Dato Interesante </h2>
+        <p class="seccion-texto">A pesar de que muchas veces utilicemos la metáfora de los archivos llenos de documentos para referirnos a cómo son los recuerdos contenidos en nuestro cerebro, lo cierto es que todos nuestros recuerdos cambian constantemente, hagamos lo que hagamos.</p>
+      </div>
+    </section>
+
+ 
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo"> ¡Qué estudia la psicologia? </p>
+            <p>  Estudia la forma en la que los seres humanos cambian a lo largo de su vida, comprende el estudio del ciclo vital, observa de qué manera cambian continuamente las acciones de un individuo y cómo este reacciona a un ambiente que también está en constante cambio.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+         
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículo</p>
+            <p>El cumplimiento del deseo es la satisfacción de un deseo a través de un proceso de pensamiento involuntario. El cumplimiento de los deseos puede ocurrir en sueños o en sueños, en los síntomas de la neurosis o en las alucinaciones de la psicosis.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person"></i>
+            <p class="experiencia-titulo">sobre mi</p>
+            <p>soy estudiante del CBT Xonacatlan, estudio una carrera tecnica de laboratorista quimico actualmente curso el quinto semestre de la carra. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="emociones.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="pensamiento.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/tranquilidad.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/psicologia.webp "alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Conexión_Emocional-2.jpg" alt=""> 
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/tumblr_mhvk6xCuIL1s4hh1ao1_500.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.unir.net/salud/revista/que-es-psicologia-que-estudia/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Que es la psicologia.
+            </li>
+          </a>
+          <a href="https://www.psicoactiva.com/blog/cosas-tal-vez-no-sabias-la-psicologia/">
+            <li class="list-group-item">
+              Los datos mas importantes de la psicologia.
+            </li>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.centroeleia.edu.mx/blog/nacimiento-y-evolucion-de-la-psicologia-como-ciencia/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Historia de psicologia.
+            </li>
+          </a>
+          <a href="https://www.psicologia-online.com/que-es-la-psicologia-clinica-definicion-historia-objetivo-y-ejemplos-4387.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Psicologia clinica.
+            </li>
+          </a>
+          <a href="https://www.unir.net/salud/revista/psicologia-social/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Psicologia social.
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de personas a las que les ha cambiado la vida la psicologia...</h3>
+      
+      
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/t1.png" alt="Foto de Galilea">
+              <p class="testimonio-texto"></p>Siempre he sido una persona positiva, pero a partir de que vi la película comencé a sentir la necesidad de compartirla con todas las personas que amo y eso me ha traído grandes beneficios espirituales, sentimentales, económicos y de salud.
+              <div class="testimonio-info">
+                <p class="cliente">Galilea</p>
+                <p class="cargo">Docente</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/t2.jpg" alt="Foto de Alina">
+              <p class="testimonio-texto">Es casi increíble como ha cambiado mi forma de ser al tener pensamientos positivos y ser agradecida. Mi relación con mis hijos mejoró notablemente.
+                Siento como que soy otra persona, miro a los demás con una sonrisa, vivo el presente. Me despreocupo. Y noto como poco a poco comienzan a abrirse los canales de la abundancia. Mi vida ha cambiado.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alina</p>
+                <p class="cargo">Ama de casa</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/679fef5c836f5016931a44b8496ed366.jpg" alt="Foto de Javier Mtz">
+              <p class="testimonio-texto">Estoy consciente de que la forma en la que me siento, son las cosas que estaré generándome y francamente quisiera sentirme mucho mejor. Tengo 40 años, casado, 3 hijos maravillosos, estabilidad laboral y socio económica.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Javier Mtz</p>
+                <p class="cargo">Mécanico</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+   
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame si quieres saber mas sobre la psicologia 
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="guadalupegtz554@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">si te interesa la psicologia aprende conmigo<br>no podemos cambiar nada hasta que lo aceptamos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="guadalupegtz554@gmail" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Maria Guadalupe (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
